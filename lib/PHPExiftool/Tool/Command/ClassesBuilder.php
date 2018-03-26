@@ -129,7 +129,7 @@ class ClassesBuilder extends Command
     {
         $n = 0;
 
-        $classesBuffer = new TagProviderBuilder('', 'TagProvider', array(), '\\Pimple');
+        $classesBuffer = new TagProviderBuilder('', 'TagProvider', array(), '\\Pimple\\Container');
         $buffer = array();
 
         foreach ($this->classes as $class) {
